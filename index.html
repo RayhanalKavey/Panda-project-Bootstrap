@@ -25,7 +25,7 @@
     <div class="container">
       <!-- Start Header Section -->
       <header class="header mb-5">
-        <nav class="navbar navbar-expand-lg text-black">
+        <nav class="navbar navbar-expand-lg text-black fixed-top">
           <div class="container-fluid">
             <img src="images/logo.png" alt="logo-panda" />
             <button
@@ -42,20 +42,20 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#slider"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Shoes</a>
+                  <a class="nav-link" href="#shoes">Shoes</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link disabled">Backpack</a>
+                  <a class="nav-link" href="#backpack">Backpack</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link disabled">Subscribe</a>
+                  <a class="nav-link" href="#form">Subscribe</a>
                 </li>
               </ul>
             </div>
@@ -64,8 +64,8 @@
       </header>
       <!-- End Header Section -->
       <main>
-        <!-- Start Slider(Carousel) -->
-        <section class="mb-5">
+        <!-- Start Slider(Car ousel) -->
+        <section class="mb-5" id="slider">
           <div
             id="carouselExampleControls"
             class="carousel slide"
@@ -214,7 +214,7 @@
         </section>
         <!-- Categories ends -->
         <!-- pricing section starts -->
-        <section class="mb-5">
+        <section class="mb-5" id="shoes">
           <h1 class="mb-3">Shoes</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -278,7 +278,7 @@
         </section>
         <!-- pricing section ends -->
         <!-- Backpack section starts -->
-        <section class="mb-5">
+        <section class="mb-5" id="backpack">
           <h1 class="mb-3">Backpack</h1>
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -304,7 +304,7 @@
               <div class="card shadow-lg">
                 <img
                   src="images/bags/bag-2.png"
-                  class="card-img-top"
+                  class="card-img-top pb-1"
                   alt="..."
                 />
                 <div class="card-body">
@@ -341,6 +341,42 @@
           </div>
         </section>
         <!-- Backpack section ends -->
+        <!-- Form starts -->
+        <section class="mb-5" id="form">
+          <form class="d-flex align-items-center justify-content-center">
+            <div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-primary bg-warning border border-0 text-black"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </section>
+        <!-- Form ends -->
+        <!-- Footer starts -->
+        <!-- Footer ends -->
+        <footer>
+          <p class="text-center">
+            <small
+              >©2023. Panda Commerce. All rights reserved. Sofia,
+              Bulgaria.</small
+            >
+          </p>
+        </footer>
       </main>
     </div>
     <!-- Bootstrap js -->
