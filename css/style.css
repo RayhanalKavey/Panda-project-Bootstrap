@@ -29,3 +29,19 @@ section form {
   height: 16rem;
   border-radius: 10px;
 }
+.categories img {
+  width: 100px;
+}
+.category {
+  background-color: #ff136f;
+}
+.btn-buy-now {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+}
+#watch img {
+  height: 400px;
+}
