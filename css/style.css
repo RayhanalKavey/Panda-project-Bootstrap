@@ -9,4 +9,12 @@ html {
 body {
   font-family: "Ibarra Real Nova", serif;
   font-weight: 500;
+  background-color: beige;
+}
+.header {
+  background-color: rgba(246, 218, 232, 0.641);
+  border-radius: 10px;
+}
+.carousel-inner {
+  background-color: rgba(246, 218, 232, 0.861);
 }
